@@ -11,8 +11,8 @@
 *.iml
 
 # building
-target
-build
+#target
+#build
 tmp
 dist
 

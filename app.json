@@ -19,11 +19,6 @@
       "commands": [
         ". ./setup.sh"
       ]
-    },
-    "postcreate": {
-      "commands": [
-        "java -jar target/spring-data-example-1.0.0-SNAPSHOT.jar"
-      ]
     }
   }
 }
