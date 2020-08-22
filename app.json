@@ -19,6 +19,6 @@
       "commands": [
         ". ./setup.sh"
       ]
-    },
+    }
   }
 }
