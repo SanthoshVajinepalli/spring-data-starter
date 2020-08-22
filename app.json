@@ -8,6 +8,10 @@
     "ASTRA_DB_PASSWORD": {
       "description": "Your Astra database password",
       "required": true
+    },
+    "ASTRA_DB_KEYSPACE": {
+      "description": "Your Astra database keyspace",
+      "required": true
     }
   },
   "hooks": {
@@ -15,6 +19,6 @@
       "commands": [
         ". ./setup.sh"
       ]
-    }
+    },
   }
 }
