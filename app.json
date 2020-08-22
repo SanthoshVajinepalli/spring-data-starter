@@ -1,0 +1,26 @@
+{
+  "name": "spring-data-starter",
+  "env": {
+    "SERVICE_ACCOUNT": {
+      "description": "Your Astra service account credentials",
+      "required": true
+    },
+    "ASTRA_DB_PASSWORD": {
+      "description": "Your Astra database password",
+      "required": true
+    }
+  },
+  "options": {
+    "allow-unauthenticated": false,
+    "memory": "512Mi",
+    "cpu": "1",
+    "port": "80"
+  },
+  "hooks": {
+    "prebuild": {
+      "commands": [
+        "./my-custom-prebuild"
+      ]
+    }
+  }
+}
