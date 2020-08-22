@@ -13,7 +13,7 @@
   "hooks": {
     "prebuild": {
       "commands": [
-        "sudo . ./setup.sh"
+        ". ./setup.sh"
       ]
     }
   }
