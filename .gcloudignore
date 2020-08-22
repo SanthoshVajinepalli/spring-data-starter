@@ -10,12 +10,6 @@
 *.iws
 *.iml
 
-# building
-target
-build
-tmp
-dist
-
 # misc
 .DS_Store
 .factorypath
