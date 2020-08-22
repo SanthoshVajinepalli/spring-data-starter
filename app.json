@@ -10,16 +10,10 @@
       "required": true
     }
   },
-  "options": {
-    "allow-unauthenticated": false,
-    "memory": "512Mi",
-    "cpu": "1",
-    "port": "80"
-  },
   "hooks": {
     "prebuild": {
       "commands": [
-        "./my-custom-prebuild"
+        "./setup.sh"
       ]
     }
   }
