@@ -3,7 +3,7 @@ EXPOSE 8081
 EXPOSE 8082
 
 WORKDIR /app
-ARG JAR=spring-data-example-1.0.0-SNAPSHOT.jar
+ARG JAR=target/spring-data-example-1.0.0-SNAPSHOT.jar
 
-RUN cp /target/$JAR /app.jar
+COPY $JAR app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
